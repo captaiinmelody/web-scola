@@ -1,0 +1,3 @@
+.card {
+    @apply flex flex-col items-center justify-center md:flex-row gap-20;
+}
