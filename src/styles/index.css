@@ -101,7 +101,7 @@
 
 @layer utilities {
   .wrapper {
-    @apply max-w-7xl lg:mx-auto md:px-10 xl:px-0 w-full;
+    @apply max-w-7xl lg:mx-auto md:px-10 xl:px-0 w-full px-10;
   }
 
   .flex-start {

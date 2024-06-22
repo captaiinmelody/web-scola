@@ -1,12 +1,41 @@
-export const institusi = [
-  "TK/RA/Sederajat",
-  "SD/MI/Sederajat",
-  "SMP/MTS/Sederajat",
-  "SMA/SMK/MA/Sederajat",
-  "Perguruan Tinggi",
+export const footer_menu = [
+  {
+    title: "Scola",
+    items: [
+      { title: "Pricing", link: null, icon: null },
+      { title: "Reviews", link: null, icon: null },
+      { title: "Updates", link: null, icon: null },
+    ],
+  },
+  {
+    title: "Company",
+    items: [
+      { title: "About", link: null, icon: null },
+      { title: "Media", link: null, icon: null },
+      { title: "Careers", link: null, icon: null },
+      { title: "Culture", link: null, icon: null },
+      { title: "Blog", link: null, icon: null },
+    ],
+  },
+  {
+    title: "Contact Us",
+    items: [
+      {
+        title: "privilege@scola.co.id",
+        link: "mailto:privilege@scola.co.id",
+        icon: "mail",
+      },
+      {
+        title: "+62 813 - 3634 - 4458",
+        link: "https://wa.me/+6281336344458",
+        icon: "tlp",
+      },
+      {
+        title:
+          "HQ Yogyakarta\nPakuwon Mall 3rd Floor\nJl. Ring Road Utara, Kaliwaru, Condongcatur, Depok, Sleman\nYogyakarta 5512813.",
+        link: "https://maps.app.goo.gl/xaTvJX2qgosDq4wF8",
+        icon: "location",
+      },
+    ],
+  },
 ];
-
-export const about = ["Tentang S C O L A", "Visi & Misi"];
-
-export const help = ["Pusat Bantuan", "Lokasi Kami"];
-export const product = ["SCOLA", "Format Masa Depan", "1 ON 1"];

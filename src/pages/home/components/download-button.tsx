@@ -1,17 +1,26 @@
-import DownloadButtonItem from "./download-button-item";
-const DownloadButton = () => {
+import { MouseEventHandler } from "react";
+
+const DownloadButton = ({
+  leadingImg,
+  title,
+  subtitle,
+  onClick,
+}: {
+  leadingImg: string;
+  title: String;
+  subtitle: string;
+  onClick: MouseEventHandler;
+}) => {
   return (
-    <div className="flex items-center justify-center pt-10 gap-10 font-sans flex-col md:flex-row">
-      <DownloadButtonItem
-        topText="Download on the"
-        botText="Google play"
-        icon="icon-[ri--google-play-fill]"
-      />
-      <DownloadButtonItem
-        topText="Download on the"
-        botText="App Store"
-        icon="icon-[ri--apple-fill]"
-      />
+    <div
+      onClick={onClick}
+      className="flex-center bg-white border-4 gap-2 border-black px-6 py-1 rounded-xl hover:cursor-pointer"
+    >
+      <img src={leadingImg} alt="" width={50} height={50} />
+      <div className="flex flex-col">
+        <h2 className="text-md font-semibold">{title}</h2>
+        <h2 className="text-3xl font-bold">{subtitle}</h2>
+      </div>
     </div>
   );
 };

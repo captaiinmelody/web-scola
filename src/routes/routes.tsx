@@ -7,6 +7,7 @@ import UnderConstructionPage from "@/pages/under-construction";
 // import Product from "@/pages/product/product";
 import { createBrowserRouter } from "react-router-dom";
 import About from "@/pages/about/about";
+import PrivacyPolicy from "@/pages/privacy-policy";
 // import Feature from "@/pages/feature";
 // import { News } from "@/pages/news";
 // import NewsDetails from "@/pages/news/_details";
@@ -52,6 +53,10 @@ const routes = [
       {
         path: "download",
         element: <DownloadPage />,
+      },
+      {
+        path: "privacy-policy",
+        element: <PrivacyPolicy />,
       },
     ],
   },
