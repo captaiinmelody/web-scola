@@ -37,13 +37,13 @@
   },
   "include": [
     "src"
-  ],
+, "@types/i18next.d.ts"  ],
   "references": [
     {
       "path": "./tsconfig.node.json"
     }
   ],
   "exclude": [
-    "src/pages/home/home.tsx"
+    "src/modules/home/home.tsx"
   ]
 }

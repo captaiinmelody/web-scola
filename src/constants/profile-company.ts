@@ -11,7 +11,7 @@ export const profile = {
   country: "Indonesia",
   zipcode: "40211",
   website: "https://scola.id",
-  whatsApp: "https://wa.me/+6281336344458",
+  whatsApp: "https://wa.me/+6282231063405",
   facebook: "https://facebook.com/scola.id",
   instagram: "https://instagram.com/scola.id",
   twitter: "https://twitter.com/scola.id",

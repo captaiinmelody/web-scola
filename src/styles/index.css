@@ -15,11 +15,12 @@
     --popover: 0 0% 100%;
     --popover-foreground: 222.2 84% 4.9%;
  
-    --primary: 57 100% 50%;
-    --primary-foreground: 210 40% 98%;
+    --primary: 216 100% 42%;
+    --primary-foreground: 210 40% 98%; 
  
-    --secondary: 229 42% 31%;
-    --secondary-foreground: 222.2 47.4% 11.2%;
+    --secondary: 56 100% 49.6%;
+    --secondary-foreground: 56 100% 20%;
+    
 
     --tertiary: 1 79% 56%;
     --tertiary-foreground: 222.2 47.4% 11.2%;
@@ -93,15 +94,25 @@
   src: url('/fonts/univers-condensed.ttf');
  }
 
- /* @font-face {
-  font-family: ;
-  src: url();
- } */
+ @font-face {
+  font-family : "Comforta";
+  src: url('/fonts/Comfortaa-VariableFont_wght.ttf')
+ }
+
+ @font-face {
+  font-family: "Inter";
+  src: url('/fonts/Inter-VariableFont_slnt,wght.ttf');
+ }
+
+ @font-face {
+  font-family: "Nexa";
+  src: url('/fonts/Nexa-Heavy.ttf');
+ }
 
 
 @layer utilities {
   .wrapper {
-    @apply max-w-7xl lg:mx-auto md:px-10 xl:px-0 w-full px-10;
+    @apply max-w-7xl lg:mx-auto md:px-10 xl:px-0 w-full px-6;
   }
 
   .flex-start {

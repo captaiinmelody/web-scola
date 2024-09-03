@@ -94,6 +94,9 @@ module.exports = {
       },
       fontFamily: {
         univers: ["Univers"],
+        comforta: ["Comforta"],
+        inter: ['Inter'],
+        nexa: ["Nexa"],
       },
     },
   },
@@ -102,5 +105,6 @@ module.exports = {
     addDynamicIconSelectors(),
     require("flowbite/plugin"),
     require("@headlessui/tailwindcss")({ prefix: "ui" }),
+    require('daisyui'),
   ],
 };

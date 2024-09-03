@@ -1,13 +1,14 @@
 import App from "@/App";
-import CustomerSupportPage from "@/pages/customer-support/customer-support";
-import DownloadPage from "@/pages/download/download";
-import FollowUsPage from "@/pages/follow-us/follow-us";
-import Home from "@/pages/home/home";
-import UnderConstructionPage from "@/pages/under-construction";
+import CustomerSupportPage from "@/modules/customer-support/customer-support";
+import DownloadPage from "@/modules/download/download";
+import FollowUsPage from "@/modules/follow-us/follow-us";
+import Home from "@/modules/home/home";
+import UnderConstructionPage from "@/modules/under-construction";
 // import Product from "@/pages/product/product";
 import { createBrowserRouter } from "react-router-dom";
-import About from "@/pages/about/about";
-import PrivacyPolicy from "@/pages/privacy-policy";
+import About from "@/modules/about/about";
+import PrivacyPolicy from "@/modules/privacy-policy";
+import Tutorial from "@/modules/tutorial/page/Tutorial";
 // import Feature from "@/pages/feature";
 // import { News } from "@/pages/news";
 // import NewsDetails from "@/pages/news/_details";
@@ -57,6 +58,10 @@ const routes = [
       {
         path: "privacy-policy",
         element: <PrivacyPolicy />,
+      },
+      {
+        path: "tutorial-user",
+        element: <Tutorial img={"/assets/images/tutorial_user.png"} />,
       },
     ],
   },
